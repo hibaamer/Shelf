@@ -8,11 +8,11 @@
     android:background="@color/colorPrimaryDark">
 
     <Button
-        android:background="@drawable/login"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:androidbackground="@drawable/login"
+        android:background="@drawable/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -24,6 +24,7 @@
         android:background="@drawable/Email"
         android:paddingLeft="50dp"
         android:id="@+id/editText2"
+        android:onClick="singuppage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -40,7 +41,7 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:background="@drawable/Password"
+        android:background="@drawable/passwoord"
         android:hint="PassWord"
         android:paddingLeft="50dp"
         android:androidtextColorHint="#000"
@@ -66,16 +67,18 @@
         app:layout_constraintVertical_bias="0.129"
         app:srcCompat="@drawable/appicon" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Don't have an account? sing up"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintHorizontal_bias="0.332"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699"
-        app:srcCompat="@drawable/forgotpassword" />
+        app:layout_constraintVertical_bias="0.685" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
