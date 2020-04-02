@@ -9,7 +9,7 @@
 
     <Button
         android:background="@drawable/singup"
-        android:id="@+id/button"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:androidbackground="@drawable/singup"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/email_txt"
         android:layout_width="286dp"
         android:layout_height="38dp"
         android:androidtextColor="#000"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/password_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:androidtextColor="#000"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.635" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/shelf_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,8 +78,8 @@
         android:paddingLeft="50dp"
         android:text="UserName"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="293dp" />
 
     <EditText
         android:id="@+id/editText5"

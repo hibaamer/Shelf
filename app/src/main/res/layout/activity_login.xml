@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".LoginActivity"
     android:background="@color/colorPrimaryDark">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:androidbackground="@drawable/login"
@@ -23,8 +23,7 @@
     <EditText
         android:background="@drawable/Email"
         android:paddingLeft="50dp"
-        android:id="@+id/editText2"
-        android:onClick="singuppage"
+        android:id="@+id/email_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -40,7 +39,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/password_txt"
         android:background="@drawable/passwoord"
         android:hint="PassWord"
         android:paddingLeft="50dp"
@@ -58,7 +57,7 @@
         app:layout_constraintVertical_bias="0.638" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/shelf_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +67,7 @@
         app:srcCompat="@drawable/appicon" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/gotoSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't have an account? sing up"
