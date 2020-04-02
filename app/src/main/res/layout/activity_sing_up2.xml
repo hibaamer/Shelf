@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SingUpActivity"
     android:background="@color/colorPrimaryDark">
 
     <Button
+        android:background="@drawable/singup"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:androidbackground="@drawable/login"
-        android:background="@drawable/login"
+        android:androidbackground="@drawable/singup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -21,41 +21,40 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <EditText
-        android:background="@drawable/Email"
-        android:paddingLeft="50dp"
         android:id="@+id/editText2"
-        android:onClick="singuppage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Email"
-        android:androidtextColorHint="#000"
+        android:layout_width="286dp"
+        android:layout_height="38dp"
         android:androidtextColor="#000"
+        android:androidtextColorHint="#000"
+        android:background="@drawable/Email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
+        app:layout_constraintVertical_bias="0.56" />
 
     <EditText
         android:id="@+id/editText3"
-        android:background="@drawable/passwoord"
-        android:hint="PassWord"
-        android:paddingLeft="50dp"
-        android:androidtextColorHint="#000"
-        android:androidtextColor="#000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:androidtextColor="#000"
+        android:androidtextColorHint="#000"
+        android:background="@drawable/passwoord"
         android:ems="10"
+        android:hint="PassWord"
         android:inputType="textPassword"
+        android:paddingLeft="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638" />
+        app:layout_constraintVertical_bias="0.635" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -67,18 +66,36 @@
         app:layout_constraintVertical_bias="0.129"
         app:srcCompat="@drawable/appicon" />
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? sing up"
-        android:textSize="10dp"
+        android:androidtextColor="#000"
+        android:androidtextColorHint="#000"
+        android:background="@drawable/username"
+        android:ems="10"
+        android:hint="user name"
+        android:paddingLeft="50dp"
+        android:text="UserName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/confirmpassword"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.722" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
