@@ -17,6 +17,7 @@ public class SingUpActivity extends AppCompatActivity {
     EditText password_txt;
     EditText confirm_txt;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
