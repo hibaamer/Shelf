@@ -20,24 +20,23 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <EditText
-        android:background="@drawable/eemail"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
         android:id="@+id/email_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/eemail"
         android:ems="10"
-        android:inputType="textEmailAddress"
         android:hint="@string/email"
-        android:androidtextColorHint="#000"
-        android:androidtextColor="#000"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <EditText
         android:id="@+id/password_txt"
@@ -45,8 +44,6 @@
         android:hint="@string/password"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:androidtextColorHint="#000"
-        android:androidtextColor="#000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

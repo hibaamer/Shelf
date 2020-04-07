@@ -70,10 +70,10 @@
         android:id="@+id/username_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:androidtextColor="#000"
+
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:androidtextColorHint="#000"
+
         android:autofillHints="@string/user_name"
         android:background="@drawable/username"
         android:ems="10"
@@ -90,7 +90,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/confirmpassword"
         android:ems="10"
-        android:androidtextColor="#000"
         android:hint="@string/confirm_password"
         android:inputType="textPersonName"
         android:paddingLeft="50dp"
