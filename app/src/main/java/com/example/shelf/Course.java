@@ -1,7 +1,5 @@
 package com.example.shelf;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -69,8 +67,8 @@ public class Course extends User {
     }
 
     /**
-     * @param String Teacher_ID 
-     * @param String Teacher_contact 
+     *  String Teacher_ID
+     *  String Teacher_contact
      * @return
      */
     public void Set_Teachers( String Teacher_ID,  String Teacher_contact) {
@@ -86,8 +84,8 @@ public class Course extends User {
     }
 
     /**
-     * @param String Course_ID 
-     * @param String Comment_ID 
+     * String Course_ID
+     *  String Comment_ID
      * @return
      */
     public void Set_Comment( String Course_ID,  String Comment_ID) {

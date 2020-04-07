@@ -1,7 +1,5 @@
 package com.example.shelf;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -34,9 +32,9 @@ public class File extends Course {
     public double Rate;
 
     /**
-     * @param String File_ID 
-     * @param String File_Year 
-     * @param String Description 
+     * String File_ID
+     *  String File_Year
+     *  String Description
      * @return
      */
     public void File( String File_ID,  String File_Year,  String Description) {
@@ -44,7 +42,7 @@ public class File extends Course {
     }
 
     /**
-     * @param boolean Bookmark 
+     *  boolean Bookmark
      * @return
      */
     public void Set_Bookmark( boolean Bookmark) {
@@ -52,7 +50,7 @@ public class File extends Course {
     }
 
     /**
-     * @param double Rate 
+     *  double Rate
      * @return
      */
     public double Set_Rate( double Rate) {
@@ -61,9 +59,9 @@ public class File extends Course {
     }
 
     /**
-     * @param String File_ID 
-     * @param String File_Year 
-     * @param String Description 
+     *  String File_ID
+     *  String File_Year
+     *  String Description
      * @return
      */
     public void Upload( String File_ID,  String File_Year,  String Description) {
@@ -71,7 +69,7 @@ public class File extends Course {
     }
 
     /**
-     * @param String File_ID 
+     *  String File_ID
      * @return
      */
     public void Download( String File_ID) {

@@ -1,12 +1,14 @@
 package com.example.shelf;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SingUpActivity extends AppCompatActivity {
     SQLiteOpenHelper OpenHelper;
@@ -28,6 +30,12 @@ public class SingUpActivity extends AppCompatActivity {
         email_txt=(EditText)findViewById(R.id.email_txt);
         password_txt=(EditText)findViewById(R.id.password_txt);
         confirm_txt=(EditText)findViewById(R.id.confirm_txt);
-
+        signup_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent LogInIntent = new Intent(SingUpActivity.this,LoginActivity.class);
+                startActivity(LogInIntent);
+            }
+        });
     }
 }
