@@ -1,7 +1,5 @@
 package com.example.shelf;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -14,8 +12,8 @@ public class Administrator extends Account {
     }
 
     /**
-     * @param String Username 
-     * @param String Password 
+     *  String Username
+     * String Password
      * @return
      */
     public Void Administrator( String Username,  String Password) {

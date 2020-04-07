@@ -1,7 +1,5 @@
 package com.example.shelf;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -29,9 +27,9 @@ public class Account {
     protected String Password;
 
     /**
-     * @param String Name 
-     * @param String Email 
-     * @param String Password 
+     *  String Name
+     *  String Email
+     *  String Password
      * @return
      */
     public Void Account( String Name,  String Email,  String Password) {
@@ -48,8 +46,8 @@ public class Account {
     }
 
     /**
-     * @param String Name 
-     * @param String Password 
+     *  String Name
+     *  String Password
      * @return
      */
     public boolean Login( String Name,  String Password) {
@@ -58,7 +56,7 @@ public class Account {
     }
 
     /**
-     * @param String Password 
+     *  String Password
      * @return
      */
     public boolean Confirm_Password( String Password) {
@@ -67,7 +65,7 @@ public class Account {
     }
 
     /**
-     * @param String Email 
+     * String Email
      * @return
      */
     public String Retrieve_Password( String Email) {

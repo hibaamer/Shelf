@@ -1,7 +1,5 @@
 package com.example.shelf;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -39,11 +37,11 @@ public class User extends Account {
     public boolean Notification;
 
     /**
-     * @param String Username 
-     * @param String Email 
-     * @param String Major 
-     * @param String Level 
-     * @param String Gender 
+     *  String Username
+     *  String Email
+     *  String Major
+     *  String Level
+     *  String Gender
      * @return
      */
     public void User( String Username,  String Email,  String Major,  String Level,  String Gender) {
@@ -51,9 +49,9 @@ public class User extends Account {
     }
 
     /**
-     * @param String Name 
-     * @param String Email 
-     * @param String Password 
+     *  String Name
+     *  String Email
+     *  String Password
      * @return
      */
     public void Register( String Name,  String Email,  String Password) {
@@ -61,7 +59,7 @@ public class User extends Account {
     }
 
     /**
-     * @param String Email 
+     *  String Email
      * @return
      */
     public boolean Update_Email( String Email) {
@@ -70,7 +68,7 @@ public class User extends Account {
     }
 
     /**
-     * @param String Level 
+     *  String Level
      * @return
      */
     public boolean Update_Level( String Level) {
@@ -79,7 +77,7 @@ public class User extends Account {
     }
 
     /**
-     * @param boolean Bookmarks 
+     *  boolean Bookmarks
      * @return
      */
     public void Clear_Bookmarks( boolean Bookmarks) {
@@ -87,7 +85,7 @@ public class User extends Account {
     }
 
     /**
-     * @param boolen Notification 
+     *  boolen Notification
      * @return
      */
     public void Clear_Notifications( boolean Notification) {
