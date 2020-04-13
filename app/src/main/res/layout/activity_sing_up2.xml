@@ -19,41 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.947" />
 
-    <EditText
-        android:id="@+id/email_txt"
-        android:layout_width="286dp"
-        android:layout_height="38dp"
-        android:background="@drawable/eemail"
-        android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56"
-        android:autofillHints="" />
-
-    <EditText
-        android:id="@+id/password_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/passwoord"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635"
-        android:autofillHints="" />
 
     <ImageView
         android:id="@+id/shelf_image"
@@ -66,23 +31,59 @@
         app:srcCompat="@drawable/appicon"
         android:contentDescription="@string/todo" />
 
+
     <EditText
         android:id="@+id/username_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-
-        android:autofillHints="@string/user_name"
+        android:layout_width="286dp"
+        android:layout_height="38dp"
+        android:autofillHints=""
         android:background="@drawable/username"
         android:ems="10"
         android:hint="@string/user_name"
-        android:inputType="text"
-        android:text="@string/user_name"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="293dp" />
+        android:inputType="textUserName"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="286dp"
+        android:layout_height="38dp"
+        android:autofillHints=""
+        android:background="@drawable/eemail"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <EditText
+        android:id="@+id/password_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/passwoord"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
 
     <EditText
         android:id="@+id/confirm_txt"
