@@ -5,7 +5,13 @@
     <string name="password">PassWord</string>
     <string name="confirm_password">confirm password</string>
     <string name="todo">TODO</string>
-    <string name="email">Email</string>
-    <string name="password">PassWord</string>
+    <string name="textEmailAddress">Email</string>
+    <string name="textPassword">PassWord</string>
     <string name="don_t_have_an_account_sing_up">Don\'t have an account? sing up</string>
+    <string name="image">Image</string>
+    <string name="software_engineering_a_practitioner_s_approach">Software Engineering A Practitioner’s Approach</string>
+    <string name="my_bookmarks">My BookMarks</string>
+    <string name="go_to_search">Go to Search</string>
+    <string name="my_information">my information</string>
+
 </resources>
