@@ -33,7 +33,7 @@
         android:layout_height="50dp"
         android:layout_gravity="bottom"
         android:Layout_height="wrap_content"
-        android:text="Software Engineering A Practitioner’s Approach"
+        android:text="@string/software_engineering_a_practitioner_s_approach"
         android:textColor="#000"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="123dp"
