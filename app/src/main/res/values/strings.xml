@@ -8,4 +8,6 @@
     <string name="textEmailAddress">Email</string>
     <string name="textPassword">PassWord</string>
     <string name="don_t_have_an_account_sing_up">Don\'t have an account? sing up</string>
+    <string name="image">Image</string>
+    <string name="todo">TODO</string>
 </resources>
