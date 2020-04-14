@@ -10,7 +10,7 @@ import android.util.Log;
 
 public class BookmarksDB extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME="Bookmarks.db";
+    public static final String DATABASE_NAME="shelfapp_db.db";
     public static final String TABLE_NAME="Bookmarks";
     public static final String COL_ID="ID";
     public static final String COL_TITLE="ContentTitle";

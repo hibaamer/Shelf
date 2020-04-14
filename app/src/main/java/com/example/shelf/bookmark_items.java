@@ -7,7 +7,7 @@ public class bookmark_items {
 
 
 
-    public bookmark_items() {
+    public bookmark_items(String title, String id, int image) {
     }
 
     public bookmark_items(int content_image, String content_title, String key_id){

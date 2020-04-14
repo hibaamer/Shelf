@@ -12,7 +12,7 @@
     >
 
     <ImageView
-        android:id="@+id/shelf_image"
+        android:id="@+id/cont_image"
         android:layout_width="123dp"
         android:layout_height="122dp"
         android:Layout_height="match_parent"
@@ -27,7 +27,7 @@
 
 
     <TextView
-        android:id="@id/shelf_image"
+        android:id="@+id/desc_text"
         style="@style/TextAppearance.AppCompat"
         android:layout_width="256dp"
         android:layout_height="50dp"
@@ -40,6 +40,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
+        android:id="@+id/BM_btn"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/ic_bookmark_red_24dp"
