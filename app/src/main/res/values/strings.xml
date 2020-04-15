@@ -9,10 +9,12 @@
     <string name="textPassword">PassWord</string>
     <string name="don_t_have_an_account_sing_up">Don\'t have an account? sing up</string>
     <string name="image">Image</string>
-    <string name="software_engineering_a_practitioner_s_approach">Software Engineering A Practitioner’s Approach</string>
+    <string name="software_engineering_a _practitioner_s_approach">Software Engineering A Practitioner’s Approach</string>
     <string name="my_bookmarks">My BookMarks</string>
     <string name="go_to_search">Go to Search</string>
     <string name="my_information">my information</string>
+    <string name="search">search</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
