@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:id="@+id/shelf_image"
         android:layout_width="123dp"
         android:layout_height="122dp"
-        android:Layout_height="match_parent"
+
 
         android:baselineAligned="false"
         android:scaleType="centerCrop"
@@ -30,9 +30,9 @@
         android:id="@id/shelf_image"
         style="@style/TextAppearance.AppCompat"
         android:layout_width="256dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:Layout_height="wrap_content"
+
         android:text="@string/software_engineering_a_practitioner_s_approach"
         android:textColor="#000"
         tools:ignore="MissingConstraints"
@@ -47,4 +47,4 @@
         tools:layout_editor_absoluteX="339dp"
         tools:layout_editor_absoluteY="66dp" />
 
-</androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
