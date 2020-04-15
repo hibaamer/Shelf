@@ -18,12 +18,13 @@
 
 
         android:baselineAligned="false"
+        android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         android:src="@drawable/file_type_doc"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-9dp"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
@@ -32,19 +33,29 @@
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
         android:text="@string/software_engineering_a_practitioner_s_approach"
         android:textColor="#000"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cont_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/BM_btn"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="5dp"
         android:background="@drawable/ic_bookmark_red_24dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="350dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cont_image"
+        app:layout_constraintTop_toTopOf="@+id/desc_text"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
