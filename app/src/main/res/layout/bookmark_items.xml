@@ -29,10 +29,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:text="software engineering a practitioners approach"
+            android:layout_marginEnd="16dp"
+            android:text="software_engineering_a_practitioners_approach"
             android:textColor="#000"
-            android:textSize="20sp"
+            android:textSize="17sp"
             tools:ignore="HardcodedText" />
 
         <Button
