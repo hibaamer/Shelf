@@ -12,35 +12,40 @@
     >
 
     <ImageView
-        android:id="@+id/shelf_image"
+        android:id="@+id/cont_image"
         android:layout_width="123dp"
         android:layout_height="122dp"
         android:Layout_height="match_parent"
 
         android:baselineAligned="false"
         android:scaleType="centerCrop"
-        android:src="@drawable/file_type_photo"
+        android:src="@drawable/file_type_doc"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-9dp" />
+        tools:layout_editor_absoluteX="-9dp"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:id="@+id/desc_text"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:Layout_height="wrap_content"
+        android:text="@string/software_engineering_a_practitioner_s_approach"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
+        android:id="@+id/BM_btn"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/ic_bookmark_red_24dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="350dp"
         tools:layout_editor_absoluteY="80dp" />
-    <!--    <TextView-->
-    <!--        android:id="@id/shelf_image"-->
-    <!--        style="@style/TextAppearance.AppCompat"-->
-    <!--        android:layout_width="230dp"-->
-    <!--        android:layout_height="40dp"-->
-    <!--        android:layout_gravity="bottom"-->
-    <!--        android:Layout_height="wrap_content"-->
-    <!--        android:text="Image"-->
-    <!--        android:textColor="#000"-->
-    <!--        tools:ignore="MissingConstraints"-->
-    <!--        tools:layout_editor_absoluteX="140dp"-->
-    <!--        tools:layout_editor_absoluteY="55dp" />-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
