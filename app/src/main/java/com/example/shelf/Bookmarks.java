@@ -28,7 +28,7 @@ public class Bookmarks extends RecyclerView.Adapter<Bookmarks.ViewHolder>{
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_bookmark_items,parent,false);
+        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.bookmark_items,parent,false);
         BookmarksDB=new BookmarksDB(context);
         return new ViewHolder(view);
     }
