@@ -19,7 +19,7 @@ import org.w3c.dom.Text;
 public class activity_search extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
 
-
+// implement bookmarks data base here
     EditText editText;
     ListView lst;
     ArrayAdapter<String>ArrayAdapter;
@@ -49,7 +49,7 @@ public class activity_search extends AppCompatActivity implements AdapterView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-
+// when you done with class tell me to create bookmarks db table!!!!
 
         editText = findViewById(R.id.editText);
         lst = findViewById(R.id.listView);
