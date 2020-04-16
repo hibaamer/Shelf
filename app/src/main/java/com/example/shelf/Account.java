@@ -1,73 +1,85 @@
 package com.example.shelf;
 
-/**
- * 
- */
-public class Account {
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
-    /**
-     * Default constructor
-     */
+public class Account {
+    protected int ID;
+    protected String Username;
+    protected String Email;
+    protected String Password;
+
     public Account() {
     }
 
-    /**
-     * 
-     */
-    protected String Username;
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 
-    /**
-     * 
-     */
-    protected String Email;
+    public int getID() {
+        return ID;
+    }
 
-    /**
-     * 
-     */
-    protected String Password;
+    public void setUsername(String username) {
+        Username = username;
+    }
 
-    /**
-     *  String Name
-     *  String Email
-     *  String Password
-     * @return
-     */
-    public Void Account( String Name,  String Email,  String Password) {
+    public String getUsername() {
+        return Username;
+    }
+
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    @Override
+    public boolean equals(@Nullable Object obj) {
+        return super.equals(obj);
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    public Void Account(String Name, String Email, String Password) {
         // TODO implement here
         return null;
     }
 
-    /**
-     * @return
-     */
+
     public Void Logout() {
         // TODO implement here
         return null;
     }
 
-    /**
-     *  String Name
-     *  String Password
-     * @return
-     */
+
     public boolean Login( String Name,  String Password) {
         // TODO implement here
         return false;
     }
 
-    /**
-     *  String Password
-     * @return
-     */
+
     public boolean Confirm_Password( String Password) {
         // TODO implement here
         return false;
     }
 
-    /**
-     * String Email
-     * @return
-     */
+
     public String Retrieve_Password( String Email) {
         // TODO implement here
         return "";
