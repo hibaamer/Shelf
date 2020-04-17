@@ -58,4 +58,13 @@
         app:layout_constraintTop_toTopOf="@+id/id_content"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/download"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="2dp"
+        android:text="download file"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
