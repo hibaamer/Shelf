@@ -37,4 +37,5 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 
 
+// here the database support has to be written
 }
