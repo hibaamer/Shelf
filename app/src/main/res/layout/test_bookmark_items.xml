@@ -33,7 +33,7 @@
             android:textColor="#000"
             android:textSize="17sp"
             tools:ignore="HardcodedText" />
-
+        <!--bookmark button-->
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -42,7 +42,25 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/ic_bookmark_gray_24dp" />
+        <!--share button-->
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/share" />
 
+        <!--download button-->
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/download" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
