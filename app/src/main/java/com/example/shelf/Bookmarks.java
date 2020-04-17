@@ -51,7 +51,7 @@ public class Bookmarks extends RecyclerView.Adapter<Bookmarks.ViewHolder>{
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            desc_text= itemView.findViewById(R.id.desc_text);
+            desc_text= itemView.findViewById(R.id.id_content);
             cont_image= itemView.findViewById(R.id.cont_image);
             BM_btn= itemView.findViewById(R.id.BM_btn);
             //Remove from bookmarks
