@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_main2">
+    tools:context="edmt.dev.androidsqlitesearch.Activity_main2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<com.mancj.materialsearchbar.MaterialSearchBar
+    android:id="@+id/search_bar"
+    android:layout_aligenParentTop="true"
+    app:mt_speechMode="false"
+    app:mt_hint="Search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <androidx.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_search"
+        android:layout_below="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
