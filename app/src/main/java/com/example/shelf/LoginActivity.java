@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         L_login_button = (Button) findViewById(R.id.login_button);
         L_Email_txt = (EditText) findViewById(R.id.email_txt);
         L_password_txt = (EditText) findViewById(R.id.password_txt);
-        L_shelf_image = (ImageView) findViewById(R.id.shelf_image);
+        L_shelf_image = (ImageView) findViewById(R.id.cont_image);
         L_gotoSignup = (TextView) findViewById(R.id.gotoSignup);
         L_gotoSignup.setOnClickListener(new View.OnClickListener() {
             @Override
