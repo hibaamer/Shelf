@@ -44,6 +44,17 @@
             android:layout_marginBottom="1dp"
             android:background="@drawable/ic_bookmark_gray_24dp" />
 
+        <Button
+            android:id="@+id/download"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/BM_btn"
+            android:text="download file"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
