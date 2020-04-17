@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="shelfapp.db";
+    public static final String DATABASE_NAME="shelfapp_db.db";
     public static final String TABLE_NAME= "USER_ACCOUNT";
     public static final String COL_1="username";
     public static final String COL_2="password";

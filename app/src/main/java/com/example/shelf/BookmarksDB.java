@@ -78,7 +78,7 @@ public class BookmarksDB extends SQLiteOpenHelper {
 
     public Cursor Selcet_AllBookmarks(){
         SQLiteDatabase db=this.getReadableDatabase();
-        String sql= "SELECT * FROM "+ TABLE_NAME+"WHERE"+STATUS_COL+"='1'";
+        String sql= "SELECT * FROM "+ TABLE_NAME+"WHERE"+STATUS_COL+" '=1' ";
         return db.rawQuery(sql,null, null);
     }
 }
