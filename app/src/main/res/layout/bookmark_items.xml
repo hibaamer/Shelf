@@ -23,13 +23,13 @@
 
         <TextView
             android:id="@+id/id_content"
-            android:layout_width="298dp"
+            android:layout_width="107dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
-            android:text="@string/software_engineering_a_practitioner_s_approach"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="212dp"
+            android:text="عال310"
             android:textColor="#000"
             android:textSize="17sp"
             tools:ignore="HardcodedText" />
@@ -49,12 +49,22 @@
             android:layout_width="160dp"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="6dp"
             android:layout_toStartOf="@+id/BM_btn"
             android:text="download file"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
+
+        <Button
+            android:id="@+id/view310"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/view" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
