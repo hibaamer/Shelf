@@ -30,18 +30,18 @@
     <TextView
         android:id="@+id/id_content"
         style="@style/TextAppearance.AppCompat"
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"
+        android:layout_width="69dp"
+        android:layout_height="38dp"
         android:layout_gravity="bottom"
         android:layout_marginStart="8dp"
-        android:text="@string/software_engineering_a_practitioner_s_approach"
+        android:text="عال310"
         android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/cont_image"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505"
+        app:layout_constraintVertical_bias="0.297"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -62,9 +62,20 @@
         android:id="@+id/download"
         android:layout_width="160dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="64dp"
         android:text="download file"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
+
+    <Button
+        android:id="@+id/view310"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
