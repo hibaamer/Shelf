@@ -20,7 +20,7 @@
         android:baselineAligned="false"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
-        android:src="@drawable/file_type_doc"
+        android:src="@drawable/ic_filter_none_black_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +28,7 @@
 
 
     <TextView
-        android:id="@+id/desc_text"
+        android:id="@+id/id_content"
         style="@style/TextAppearance.AppCompat"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cont_image"
-        app:layout_constraintTop_toTopOf="@+id/desc_text"
+        app:layout_constraintTop_toTopOf="@+id/id_content"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
