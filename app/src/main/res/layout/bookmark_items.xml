@@ -13,59 +13,114 @@
         android:layout_height="98dp"
         android:layout_margin="4dp">
 
+
         <ImageView
             android:id="@+id/cont_image"
-            android:layout_width="84dp"
-            android:layout_height="match_parent"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="334dp"
+            android:layout_marginBottom="19dp"
+            android:baselineAligned="false"
+            android:contentDescription="@string/todo"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_filter_none_black_24dp"
-            tools:ignore="ContentDescription" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.483" />
 
         <TextView
             android:id="@+id/id_content"
-            android:layout_width="107dp"
-            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat"
+            android:layout_width="43dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="212dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="267dp"
+            android:layout_marginBottom="66dp"
             android:text="عال310"
             android:textColor="#000"
-            android:textSize="17sp"
-            tools:ignore="HardcodedText" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.322"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.195"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/BM_btn"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="1dp"
-            android:background="@drawable/share" />
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/share"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.954"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/download"
             android:layout_width="160dp"
             android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="86dp"
-            android:layout_marginBottom="6dp"
-            android:layout_toStartOf="@+id/BM_btn"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="0dp"
             android:text="download file"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9" />
 
         <Button
             android:id="@+id/view310"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="50dp"
-            android:layout_marginBottom="1dp"
-            android:background="@drawable/view" />
-
+            android:layout_marginStart="363dp"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.822"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
 
