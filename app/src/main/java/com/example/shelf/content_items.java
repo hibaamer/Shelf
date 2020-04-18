@@ -6,7 +6,7 @@ public class content_items {
         public String key_id;
         public String Bookmark_Status;
 
-
+  
 
         public content_items() {
         }
