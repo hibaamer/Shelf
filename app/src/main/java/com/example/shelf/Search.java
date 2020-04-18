@@ -14,6 +14,7 @@ import android.widget.Button;
 public class Search extends AppCompatActivity {
         Button view310;
         Button download;
+        Button BM_btn;
         DownloadManager downloadManager;
 
     @Override
@@ -47,5 +48,24 @@ public class Search extends AppCompatActivity {
                 long refrence = downloadManager.enqueue(request);
             }
         });
+
+        BM_btn=(Button)findViewById(R.id.BM_btn);
+
+        BM_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent shareIntent= new Intent(Intent.ACTION_SEND);
+                Uri uri  = Uri.parse("https://gofile.io/?c=zGh9si");
+                String sc310="CS310";
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT,sc310);
+                shareIntent.putExtra(Intent.EXTRA_TEXT,uri);
+                startActivity(Intent.createChooser(shareIntent, "Share using"));
+
+
+            }
+        });
     }
+
+
 }
