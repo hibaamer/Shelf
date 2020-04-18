@@ -4,46 +4,47 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class Account {
-    protected int ID;
-    protected String Username;
-    protected String Email;
-    protected String Password;
+    public String username;
+    public String email;
+    public String password;
+
+    public Account (String username , String email , String password) {
+        this.email = email;
+        this.username = username;
+        this.password = password;
+    }
 
     public Account() {
+
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public int getID() {
-        return ID;
-    }
 
     public void setUsername(String username) {
-        Username = username;
+        this.username = username;
     }
 
     public String getUsername() {
-        return Username;
+        return username;
     }
 
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
+
+
 
     @Override
     public boolean equals(@Nullable Object obj) {

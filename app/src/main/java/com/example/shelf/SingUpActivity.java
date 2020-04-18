@@ -12,12 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SingUpActivity extends AppCompatActivity {
     SQLiteOpenHelper OpenHelper;
-    DatabaseHelper db;
+    StudentDB db;
     Button S_signup_button;
     EditText S_username_txt;
     EditText S_email_txt;
     EditText S_password_txt;
-    EditText S_confirm_txt;
 
 
     @Override
@@ -25,19 +24,12 @@ public class SingUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up2);
 
-        db = new DatabaseHelper(this);
+        db = new StudentDB(this);
         S_signup_button=(Button)findViewById(R.id.signup_button);
         S_username_txt=(EditText)findViewById(R.id.username_txt);
         S_email_txt=(EditText)findViewById(R.id.email_txt);
         S_password_txt=(EditText)findViewById(R.id.password_txt);
-        S_confirm_txt=(EditText)findViewById(R.id.confirm_txt);
-        S_signup_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent LogInIntent = new Intent(SingUpActivity.this,LoginActivity.class);
-                startActivity(LogInIntent);
-            }
-        });
+
 
         S_signup_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +48,7 @@ public class SingUpActivity extends AppCompatActivity {
 
                 else{
 
-                        Toast.makeText(SingUpActivity.this, "SignUp Erorr", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SingUpActivity.this, "SignUp Error", Toast.LENGTH_SHORT).show();
                     }
 
                     }

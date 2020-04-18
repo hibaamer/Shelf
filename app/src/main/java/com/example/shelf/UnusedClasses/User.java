@@ -1,5 +1,7 @@
-package com.example.shelf;
+package com.example.shelf.UnusedClasses;
 
+
+import com.example.shelf.Account;
 
 public class User extends Account {
 

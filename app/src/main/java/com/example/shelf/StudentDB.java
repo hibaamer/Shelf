@@ -6,18 +6,18 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-
-public class DatabaseHelper extends SQLiteOpenHelper {
+public class StudentDB extends SQLiteOpenHelper {
     public static final String DATABASE_NAME="shelfapp_db.db";
     public static final String TABLE_NAME= "USER_ACCOUNT";
     public static final String COL_1="username";
     public static final String COL_2="password";
     public static final String COL_3="email";
     SQLiteDatabase db;
+
     private static final String TABLE_CREATE = " CREATE TABLE USER_ACCOUNT (username TEXT PRIMARY KEY not null , "
             + "password TEXT not null , email TEXT not null);";
 
-    public DatabaseHelper(Context context) {
+    public StudentDB(Context context) {
         super(context,DATABASE_NAME, null, 1);
     }
 

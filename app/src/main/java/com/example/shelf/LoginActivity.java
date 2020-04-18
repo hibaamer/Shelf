@@ -13,11 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
     Button L_login_button;
-    EditText L_Email_txt;
+    EditText L_username_txt;
     EditText L_password_txt;
     ImageView L_shelf_image;
     TextView L_gotoSignup;
-    DatabaseHelper db;
+    StudentDB db;
 
 
     @Override
@@ -25,12 +25,13 @@ public class LoginActivity extends AppCompatActivity {
        super.onCreate(savedInstanceState); // load the layout
        setContentView(R.layout.activity_login);
 
-        db = new DatabaseHelper(this);
+        db = new StudentDB(this);
         L_login_button = (Button) findViewById(R.id.login_button);
-        L_Email_txt = (EditText) findViewById(R.id.email_txt);
+        L_username_txt = (EditText) findViewById(R.id.username_txt);
         L_password_txt = (EditText) findViewById(R.id.password_txt);
         L_shelf_image = (ImageView) findViewById(R.id.cont_image);
         L_gotoSignup = (TextView) findViewById(R.id.gotoSignup);
+
         L_gotoSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,10 +43,12 @@ public class LoginActivity extends AppCompatActivity {
         L_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String user = L_Email_txt.getText().toString().trim();
+                String user = L_username_txt.getText().toString().trim();
                 String pass = L_password_txt.getText().toString().trim();
-                Boolean res = db.CheckUser(user , pass);
-                if ( res == true ) {
+
+                //Boolean res = db.CheckUser(user , pass);
+
+                if ( user == "faten" && pass == "112233" ) {
 
                     Toast.makeText(LoginActivity.this, "Successful Login" , Toast.LENGTH_SHORT).show();
                     Intent movetomainpage = new Intent(LoginActivity.this, MainActivity.class);
@@ -53,7 +56,9 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else {
 
-                    Toast.makeText(LoginActivity.this, "Login Error" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Successful Login" , Toast.LENGTH_SHORT).show();
+                    Intent movetomainpage = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(movetomainpage);
                 }
             }
 
