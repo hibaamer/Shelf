@@ -55,7 +55,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent shareIntent= new Intent(Intent.ACTION_SEND);
-                String URL  ="https://2u.pw/Vdg4a";
+                String URL  ="https://gofile.io";
                 String sc310="CS310";
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT,sc310);

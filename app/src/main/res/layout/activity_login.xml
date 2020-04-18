@@ -21,10 +21,10 @@
 
     <EditText
         android:id="@+id/username_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="281dp"
+        android:layout_height="40dp"
         android:autofillHints=""
-        android:background="@drawable/username"
+        android:background="@color/colorPrimary"
         android:ems="10"
         android:hint="@string/user_name"
         android:inputType="textEmailAddress"
@@ -33,27 +33,28 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <EditText
         android:id="@+id/password_txt"
-        android:background="@drawable/passwoord"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:hint="@string/password_here"
+        android:inputType="textPassword"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <ImageView
         android:id="@+id/cont_image"
@@ -74,10 +75,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.681" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

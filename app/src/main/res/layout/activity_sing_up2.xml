@@ -9,9 +9,10 @@
 
     <Button
         android:id="@+id/signup_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/singup"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -37,7 +38,7 @@
         android:layout_width="286dp"
         android:layout_height="38dp"
         android:autofillHints=""
-        android:background="@drawable/username"
+        android:background="@color/colorPrimary"
         android:ems="10"
         android:hint="@string/user_name"
         android:inputType="text"
@@ -45,17 +46,17 @@
         android:paddingRight="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.444" />
 
     <EditText
         android:id="@+id/email_txt"
         android:layout_width="286dp"
         android:layout_height="38dp"
         android:autofillHints=""
-        android:background="@drawable/eemail"
+        android:background="@color/colorPrimary"
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
@@ -70,21 +71,20 @@
 
     <EditText
         android:id="@+id/password_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
         android:autofillHints=""
-        android:background="@drawable/passwoord"
+        android:background="@color/colorPrimary"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
-
+        app:layout_constraintVertical_bias="0.535" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

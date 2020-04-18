@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".profile_Activity"></activity>
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".profile_Activity" />
         <activity android:name=".view310" />
         <activity android:name=".Activity_main2" />
         <activity android:name=".Search">
