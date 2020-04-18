@@ -6,8 +6,6 @@ import com.github.barteksc.pdfviewer.PDFView;
 public class view_310 extends AppCompatActivity {
 
     PDFView view;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
