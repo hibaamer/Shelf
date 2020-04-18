@@ -51,7 +51,7 @@
         android:layout_marginStart="227dp"
         android:layout_marginTop="37dp"
         android:layout_marginEnd="5dp"
-        android:background="@drawable/ic_bookmark_red_24dp"
+        android:background="@drawable/share"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cont_image"
