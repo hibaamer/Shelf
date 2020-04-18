@@ -28,7 +28,6 @@ public class Search extends AppCompatActivity {
 
             public void onClick(View view) {
                 Intent i = new Intent(Search.this,view_310.class);
-//                i.putExtra("ViewType", "Internet");
                 startActivity(i);
 
                                     }
@@ -66,6 +65,7 @@ public class Search extends AppCompatActivity {
             }
         });
     }
+
 
 
 }
