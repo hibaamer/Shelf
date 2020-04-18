@@ -39,8 +39,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
-    implementation 'com.github.kk121:File-Loader:1.2'
-    implementation 'com.karumi:dexter:5.0.0'
+
 
 // here the database support has to be written
 }
