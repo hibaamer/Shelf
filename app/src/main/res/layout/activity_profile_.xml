@@ -15,7 +15,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/major"
-        android:inputType="textPersonName"
+        android:inputType="none"
         android:text="@string/major"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,14 +31,15 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/ChangeEmail"
-        android:inputType="changeEmail"
+        android:inputType="none"
         android:text="@string/ChangeEmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.374"
+        tools:ignore="TextFields" />
 
     <EditText
 
@@ -64,7 +65,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/level"
-        android:inputType="level"
+        android:inputType="none"
         android:text="@string/level"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
