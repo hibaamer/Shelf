@@ -35,6 +35,11 @@
     <string name="log_out">LOG OUT</string>
     <string name="save_changes">save changes</string>
     <string name="change_password">change password</string>
+    <string name="hsearch">Button</string>
+    <string name="hsearchh">TextView</string>
+    <string name="sign_up">sign up</string>
+    <string name="enteridhere">EnterIdhere</string>
+    <string name="password_here">password</string>
     <!--    <string name="todo" translatable="false">TODO</string>-->
 
 </resources>
