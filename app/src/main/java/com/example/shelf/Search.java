@@ -1,15 +1,14 @@
 package com.example.shelf;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.telephony.mbms.DownloadRequest;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Search extends AppCompatActivity {
@@ -42,7 +41,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-                 Uri uri  = Uri.parse("https://2u.pw/Vdg4a");
+                 Uri uri  = Uri.parse("https://gofile.io/?c=wEG2oA");
                 DownloadManager.Request request = new DownloadManager.Request(uri);
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 long refrence = downloadManager.enqueue(request);
@@ -55,7 +54,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent shareIntent= new Intent(Intent.ACTION_SEND);
-                String URL  ="https://gofile.io";
+                String URL  ="https://gofile.io/?c=wEG2oA";
                 String sc310="CS310";
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT,sc310);
