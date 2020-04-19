@@ -27,7 +27,7 @@ public class Search extends AppCompatActivity {
         view310.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view) {
-                String URL  ="https://gofile.io/?c=wEG2oA";
+                String URL  ="https://0i.is/6lnM";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://gofile.io/?c=wEG2oA"));
                 startActivity(intent);
                                     }
@@ -41,10 +41,8 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-                String Url = "https://gofile.io/?c=wEG2oA";
-              //   Uri uri  = Uri.parse(Url) ;
+                String Url = "https://0i.is/Y7hd";
                 DownloadManager.Request request = new DownloadManager.Request(Uri.parse(Url));
-
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 long refrence = downloadManager.enqueue(request);
             }
@@ -56,7 +54,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent shareIntent= new Intent(Intent.ACTION_SEND) ;
-                String URL  ="https://gofile.io/?c=wEG2oA";
+                String URL  ="https://0i.is/6lnM";
                 String sc310="CS310";
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT,sc310);
