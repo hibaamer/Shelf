@@ -27,9 +27,9 @@ public class Search extends AppCompatActivity {
         view310.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view) {
-                Intent i = new Intent(Search.this,view_310.class);
-                startActivity(i);
-
+                String URL  ="https://gofile.io/?c=wEG2oA";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://gofile.io/?c=wEG2oA"));
+                startActivity(intent);
                                     }
     });
 
@@ -44,6 +44,7 @@ public class Search extends AppCompatActivity {
                 String Url = "https://gofile.io/?c=wEG2oA";
               //   Uri uri  = Uri.parse(Url) ;
                 DownloadManager.Request request = new DownloadManager.Request(Uri.parse(Url));
+
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 long refrence = downloadManager.enqueue(request);
             }
