@@ -4,32 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="408dp"
+        android:layout_height="307dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/saaa"
+        android:contentDescription="@string/pic" />
 
     <Button
         android:id="@+id/hsearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hsearch"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/go"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
+        app:layout_constraintVertical_bias="0.502" />
 
     <EditText
         android:id="@+id/hsearchh"
-        android:layout_width="179dp"
-        android:layout_height="49dp"
-        android:text="@string/hsearchh"
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:background="@color/colorPrimaryDark"
+        android:hint="@string/enteridhere"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="@string/course_id_only"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511"
-        android:inputType="text"
-        android:hint="@string/enteridhere"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
