@@ -25,59 +25,60 @@
         android:src="@drawable/fiiile"
         tools:ignore="ContentDescription" />
 
-        <TextView
-            android:id="@+id/id_content"
-            android:layout_width="67dp"
-            android:layout_height="32dp"
-            android:layout_alignParentStart="false"
-            android:layout_alignParentTop="false"
-            android:layout_alignParentEnd="false"
-            android:layout_alignParentBottom="false"
-            android:layout_marginStart="166dp"
-            android:layout_marginTop="41dp"
-            android:layout_marginEnd="170dp"
-            android:layout_marginBottom="101dp"
-            android:text="عال310"
-            android:textColor="#000"
-            android:textSize="17sp"
-            tools:ignore="HardcodedText" />
-
+    <TextView
+        android:id="@+id/id_content"
+        android:layout_width="119dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:gravity="center_vertical"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="101dp"
+        android:text="310 EL"
+        android:textColor="#000"
+        android:textSize="17sp"
+        tools:ignore="HardcodedText" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp" >
     <Button
             android:id="@+id/BM_btn"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentTop="false"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentBottom="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
             android:layout_marginStart="139dp"
             android:layout_marginTop="87dp"
             android:layout_marginEnd="224dp"
             android:layout_marginBottom="27dp"
             android:background="@drawable/share" />
 
+
         <Button
             android:id="@+id/download"
             android:layout_width="wrap_content"
             android:layout_height="58dp"
-            android:layout_alignParentStart="false"
-            android:layout_alignParentTop="false"
-            android:layout_alignParentEnd="false"
-            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_marginStart="192dp"
             android:layout_marginTop="89dp"
             android:layout_marginEnd="175dp"
             android:layout_marginBottom="27dp"
             android:background="@drawable/download"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/BM_btn" />
+         />
 
         <Button
             android:id="@+id/view310"
             android:layout_width="wrap_content"
             android:layout_height="54dp"
-            android:layout_alignParentStart="false"
-            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toBottomOf="@+id/download"
             android:layout_alignParentEnd="false"
             android:layout_alignParentBottom="false"
             android:layout_marginStart="236dp"
@@ -87,6 +88,7 @@
             android:background="@drawable/view"/>
 
 
+    </RelativeLayout>
 </RelativeLayout>
 
 
