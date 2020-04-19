@@ -40,6 +40,9 @@
     <string name="sign_up">sign up</string>
     <string name="enteridhere">EnterIdhere</string>
     <string name="password_here">password</string>
+    <string name="course_id_only">Course ID Only</string>
+    <string name="go">Go</string>
+    <string name="pic">Pic</string>
     <!--    <string name="todo" translatable="false">TODO</string>-->
 
 </resources>
