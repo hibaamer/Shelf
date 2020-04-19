@@ -42,8 +42,8 @@ public class Search extends AppCompatActivity {
             public void onClick(View view) {
                 downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
                 String Url = "https://gofile.io/?c=wEG2oA";
-                 Uri uri  = Uri.parse(Url) ;
-                DownloadManager.Request request = new DownloadManager.Request(uri);
+              //   Uri uri  = Uri.parse(Url) ;
+                DownloadManager.Request request = new DownloadManager.Request(Uri.parse(Url));
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 long refrence = downloadManager.enqueue(request);
             }
