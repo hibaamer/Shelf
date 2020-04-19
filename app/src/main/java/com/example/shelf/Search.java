@@ -27,7 +27,7 @@ public class Search extends AppCompatActivity {
         view310.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view) {
-                String URL  ="https://0i.is/Vr0v";
+                String URL  ="https://gofile.io/?c=wEG2oA";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
                 startActivity(intent);
                                     }
