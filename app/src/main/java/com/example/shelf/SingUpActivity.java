@@ -34,13 +34,12 @@ public class SingUpActivity extends AppCompatActivity {
         S_signup_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String user = S_username_txt.getText().toString().trim();
-                String pass = S_password_txt.getText().toString().trim();
-                String email = S_email_txt.getText().toString().trim();
+                boolean user = S_username_txt.getText().toString().isEmpty();
+                boolean pass = S_password_txt.getText().toString().isEmpty();
+                boolean email = S_email_txt.getText().toString().isEmpty();
 
-                if ( (pass.isEmpty() && user.isEmpty() && email.isEmpty()) == false ) {
-                    db.AddUser(user, pass);
-
+                if ( user == false && pass == false && email == false ) {
+                   // db.AddUser(user, pass);
                     Toast.makeText(SingUpActivity.this, "Successful SignUp", Toast.LENGTH_SHORT).show();
                     Intent movetologin = new Intent(SingUpActivity.this, LoginActivity.class);
                     startActivity(movetologin);
@@ -48,7 +47,7 @@ public class SingUpActivity extends AppCompatActivity {
 
                 else{
 
-                        Toast.makeText(SingUpActivity.this, "SignUp Error", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SingUpActivity.this, "Error SignUp! Try Again", Toast.LENGTH_SHORT).show();
                     }
 
                     }

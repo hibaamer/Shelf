@@ -20,16 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
         info_button=(Button)findViewById(R.id.info_button); //PROFILE ACTIVITY
         Bookmarks_button=(Button)findViewById(R.id.Bookmarks_button); //BOOKMARKS ACTIVITY
-        Search_button=(Button)findViewById(R.id.Search_button); // BLESSED ACTIVITY
+        Search_button=(Button)findViewById(R.id.Search_button); // main2 ACTIVITY
 
 
-       /* info_button.setOnClickListener(new View.OnClickListener() {
+       info_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              Intent ProfileIntent= new Intent(MainActivity.this, //Profile Activity Name// .class);
+              Intent ProfileIntent= new Intent(MainActivity.this,  profile_Activity.class);
                startActivity(ProfileIntent);
             }
-        }); */
+        });
 
 
        Bookmarks_button.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
        Search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent SearchIntent= new Intent(MainActivity.this, BlessedActivity.class);
+                Intent SearchIntent= new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(SearchIntent);
 
             }

@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shelf">
+package="com.example.shelf">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="com.amaze.cloud.permission.ACCESS_PROVIDER" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name=".profile_Activity" />
-        <activity android:name=".view310" />
-        <activity android:name=".Activity_main2" />
-        <activity android:name=".Search">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".BookmarksFragment">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<application
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+    android:usesCleartextTraffic="true"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
 
+
+    <activity android:name=".LoginActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".SingUpActivity"/>
+    <activity android:name=".MainActivity"/>
+    <activity android:name=".Main2Activity"/>
+    <activity android:name=".BookmarksActivity"/>
+    <activity android:name=".profile_Activity"/>
+    <activity android:name=".Search"/>
+    <activity android:name=".view_310"/>
+
+</application>
 </manifest>

@@ -43,12 +43,11 @@ public class LoginActivity extends AppCompatActivity {
         L_login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String user = L_username_txt.getText().toString().trim();
-                String pass = L_password_txt.getText().toString().trim();
-
+                boolean user = L_username_txt.getText().toString().equals("faten");
+                boolean pass = L_password_txt.getText().toString().equals("112233");
                 //Boolean res = db.CheckUser(user , pass);
 
-                if ( user == "faten" && pass == "112233" ) {
+                if ( user == true && pass == true ) {
 
                     Toast.makeText(LoginActivity.this, "Successful Login" , Toast.LENGTH_SHORT).show();
                     Intent movetomainpage = new Intent(LoginActivity.this, MainActivity.class);
@@ -56,9 +55,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else {
 
-                    Toast.makeText(LoginActivity.this, "Successful Login" , Toast.LENGTH_SHORT).show();
-                    Intent movetomainpage = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(movetomainpage);
+                    Toast.makeText(LoginActivity.this, "Error Login! Try Again" , Toast.LENGTH_SHORT).show();
                 }
             }
 
